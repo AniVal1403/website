@@ -1,40 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Колода МАК Аниты</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Авторская Колода МАК от Аниты</h1>
-    </header>
-    <main>
-        <section class="intro">
-            <p>Эта колода создана для работы с личными границами, теневой частью личности и ресурсными состояниями. Каждая карта содержит одно слово, которое помогает осознать текущие эмоции и найти выход из сложной ситуации.</p>
-        </section>
-        <section class="stimulus">
-            <h2>Как использовать колоду?</h2>
-            <ol>
-                <li>Задайте себе вопрос. Например, "Что я чувствую сейчас?" или "Какое качество мне поможет решить проблему?".</li>
-                <li>Вытяните одну карту из колоды.</li>
-                <li>Прочитайте слово и подумайте, как оно соотносится с вашей ситуацией.</li>
-                <li>Используйте карту как подсказку для дальнейших действий.</li>
-            </ol>
-        </section>
-        <section class="cards">
-            <h2>Примеры карт</h2>
-            <div class="card-list">
-                <div class="card">Гибкость</div>
-                <div class="card">Смелость</div>
-                <div class="card">Дистанция</div>
-                <div class="card">Терпение</div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Анита | Психология и личностное развитие</p>
-    </footer>
-</body>
-</html>
+/* Основной текст */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555555; /* Более мягкий серый цвет */
+    padding: 0 20px;/* Общий фон страницы */
+body {
+    font-family: "Arial", sans-serif; /* Профессиональный и простой шрифт */
+    background-color: #e8f5fc; /* Светло-голубой фон */
+    color: #333333; /* Темно-серый текст */
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    color: #007bbd; /* Голубой цвет заголовков */
+    text-align: center;
+    margin-top: 20px;
+}
+}
+
+/* Кнопки */
+button {
+    background-color: #007bbd; /* Голубой цвет кнопки */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f8a; /* Темнее при наведении */
+}
+
+/* Контейнер для содержания */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Нежная тень */
+    border-radius: 10px; /* Скругленные края */
+}
+
+/* Ссылки */
+a {
+    color: #007bbd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Примеры карточек */
+.card {
+    background: #ffffff;
+    border: 1px solid #d1e7f7;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.02); /* Немного увеличивается при наведении */
+}
